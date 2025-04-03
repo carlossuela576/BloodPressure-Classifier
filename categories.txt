@@ -1,0 +1,19 @@
+Normal:
+Systolic: Less than 120
+Diastolic: Less than 80
+
+Elevated:
+Systolic: 120-129
+Diastolic: Less than 80
+
+Hypertension Stage 1:
+Systolic: 130-139
+Diastolic: 80-89
+
+Hypertension Stage 2:
+Systolic: 140 or higher
+Diastolic: 90 or higher
+
+Hypertensive Crisis:
+Systolic: Higher than 180
+Diastolic: Higher than 120
