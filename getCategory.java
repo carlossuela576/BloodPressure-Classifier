@@ -11,7 +11,7 @@ public class getCategory {
         else if(sys >= 130 && sys <= 139 && dias >=80 && dias <=89){
             usr = Stages.STAGE1;
         }
-        else if(sys >= 140 && dias >= 90){
+        else if(sys >= 140 && sys <= 179 && dias >= 90 && dias <= 119){
             usr = Stages.STAGE2;
         }
         else if(sys >= 180 && dias >= 120){
