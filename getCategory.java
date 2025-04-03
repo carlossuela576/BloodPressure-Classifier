@@ -48,6 +48,9 @@ public class getCategory {
                 System.out.println(usr.toString());
                 System.out.println("Bro, how are you even able to use this at this point");
                 System.out.println();
+                break;
+            default:
+                System.out.println("Systolic and diastolic didn't match");
         }
     }
 }

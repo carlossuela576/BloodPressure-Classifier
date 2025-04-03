@@ -15,9 +15,15 @@ public class Main {
                 int usSys = sc.nextInt();
                 System.out.print("Diastolic: ");
                 int usDias = sc.nextInt();
-
-                pt.decisionCateg(usSys, usDias);
-                pt.classifyCateg();
+                try {
+                    pt.decisionCateg(usSys, usDias);
+                    pt.classifyCateg();
+                } 
+                catch (NullPointerException e) {
+                    System.out.println("Your systolic and diastolic didn't match \nreturning no value....");
+                    System.out.println();
+                }
+                
             }
         } 
         catch (InputMismatchException e) {
