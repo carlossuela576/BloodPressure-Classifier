@@ -14,6 +14,7 @@ public class Main {
                 System.out.println("Something went wrong");
                 System.out.println("Please enter correct inputs");
                 System.out.println(e);
+                System.out.println();
             }
         }
         
